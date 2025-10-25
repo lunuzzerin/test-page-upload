@@ -6,13 +6,3 @@
 .container > div:first-child {
     border: 2pt dotted black;
 }
-
-style[contenteditable] {
-    display: block;
-    /* Additional styling for the editable area, e.g., border, background */
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f9f9f9;
-    font-family: monospace; /* To make it look like code */
-    white-space: pre; /* To preserve whitespace and line breaks */
-}
