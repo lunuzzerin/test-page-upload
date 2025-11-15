@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./../assets/css/styles.css" />
+    <link rel="shortcut icon" href="./../assets/favicon.ico" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+
+<body class="bg-gradient-kame">
+    <div class="container">
+        <form id="calculatorForm">
+            <h2>Calculadora</h2>
+
+            <div class="container">
+                <div class="d-flex justify-content-evenly">
+                    <input required type="radio" class="btn-check" name="operation" id="option5" autocomplete="off" value="+">
+                    <label class="btn btn-outline-secondary text-black" for="option5">Suma</label>
+
+                    <input required type="radio" class="btn-check" name="operation" id="option6" autocomplete="off" value="/">
+                    <label class="btn btn-outline-secondary text-black" for="option6">División</label>
+
+                    <input required type="radio" class="btn-check" name="operation" id="option7" autocomplete="off" value="*">
+                    <label class="btn btn-outline-secondary text-black" for="option7">Multiplicación</label>
+
+                    <input required type="radio" class="btn-check" name="operation" id="option8" autocomplete="off" value="-">
+                    <label class="btn btn-outline-secondary text-black" for="option8">Resta</label>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <div class="p-2 flex-fill">
+                        <label for="buttonNumberOne" class="form-label">Ingrese primer número</label>
+                        <input required min="0" type="number" class="form-control" id="buttonNumberOne" name="buttonNumberOne">
+                    </div>
+
+                    <div class="p-2 flex-fill">
+                        <label for="buttonNumberTwo" class="form-label">Ingrese segundo número</label>
+                        <input required min="0" type="number" class="form-control" id="buttonNumberTwo" name="buttonNumberTwo">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-warning w-100">Calcular</button>
+        </form>
+
+        <h3 class="m-2 p-3 border border-warning rounded-5 text-center fw-bold" id="resultCalculate" hidden>Resultado
+        </h3>
+    </div>
+
+    <script type="module" src="./../assets/js/calculator.js"></script>
+</body>
+
+</html>
