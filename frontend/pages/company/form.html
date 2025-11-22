@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="shortcut icon" href="./../../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./../../assets/css/styles.css" />
+
+    <title>Formulario | César Trujillo</title>
+</head>
+
+<body class="bg-gradient-saiyan hv-75">
+    <div class="sticky-top">
+        <div class="container" id="menu-content"></div>
+    </div>
+
+    <div class="container">
+        <form id="questionForm">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="row w-100 my-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent text-center fw-bold fs-5 text-dark">
+                            1. ¿Cuál es el primer paso al crear una empresa?
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush"
+                                style="--bs-list-group-bg: transparent !important;--bs-list-group-disabled-bg: transparent !important;">
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFirstQuestion" value="1" id="firstResponseFirstQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="firstResponseFirstQuestion"> Registrar la marca </label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFirstQuestion" value="2" id="secondResponseFirstQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="secondResponseFirstQuestion">Contratar empleados</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFirstQuestion" value="3" id="thirdResponseFirstQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="thirdResponseFirstQuestion"> Crear redes sociales </label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFirstQuestion" value="4" id="fourthResponseFirstQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="fourthResponseFirstQuestion"> Definir la idea y validar el mercado</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row w-100 my-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent text-center fw-bold fs-5 text-dark">
+                            2. ¿Qué es un modelo de negocio?
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush"
+                                style="--bs-list-group-bg: transparent !important;--bs-list-group-disabled-bg: transparent !important;">
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSecondQuestion" value="1" id="firstResponseSecondQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="firstResponseSecondQuestion">Un documento legal obligatorio</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSecondQuestion" value="2" id="secondResponseSecondQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="secondResponseSecondQuestion">Una estrategia que explica cómo la empresa
+                                        generará ingresos </label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSecondQuestion" value="3" id="thirdResponseSecondQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="thirdResponseSecondQuestion">Un reporte contable</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSecondQuestion" value="4" id="fourthResponseSecondQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="fourthResponseSecondQuestion">El diseño de la marca</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row w-100 my-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent text-center fw-bold fs-5 text-dark">
+                            3. ¿Qué documento incluye misión, visión y análisis interno/externo?
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush"
+                                style="--bs-list-group-bg: transparent !important;--bs-list-group-disabled-bg: transparent !important;">
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseThirdQuestion" value="1" id="firstResponseThirdQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="firstResponseThirdQuestion">Plan de marketing</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseThirdQuestion" value="2" id="secondResponseThirdQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="secondResponseThirdQuestion">Plan de negocios </label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseThirdQuestion" value="3" id="thirdResponseThirdQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="thirdResponseThirdQuestion">Estatutos legales</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseThirdQuestion" value="4" id="fourthResponseThirdQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="fourthResponseThirdQuestion">Contrato de socios</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row w-100 my-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent text-center fw-bold fs-5 text-dark">
+                            4. Para legalizar una empresa normalmente se necesita:
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush"
+                                style="--bs-list-group-bg: transparent !important;--bs-list-group-disabled-bg: transparent !important;">
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFourthQuestion" value="1" id="firstResponseFourthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="firstResponseFourthQuestion">Inscribirla en la cámara de comercio
+                                    </label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFourthQuestion" value="2" id="secondResponseFourthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="secondResponseFourthQuestion">Crear página web</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFourthQuestion" value="3" id="thirdResponseFourthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="thirdResponseFourthQuestion">Comprar inventario</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFourthQuestion" value="4" id="fourthResponseFourthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="fourthResponseFourthQuestion">Pagar publicidad</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row w-100 my-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent text-center fw-bold fs-5 text-dark">
+                            5. ¿Qué es el capital inicial?
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush"
+                                style="--bs-list-group-bg: transparent !important;--bs-list-group-disabled-bg: transparent !important;">
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFivethQuestion" value="1" id="firstResponseFivethQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="firstResponseFivethQuestion">El dinero que los clientes pagan</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFivethQuestion" value="2" id="secondResponseFivethQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="secondResponseFivethQuestion">El dinero invertido para iniciar operaciones
+                                    </label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFivethQuestion" value="3" id="thirdResponseFivethQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="thirdResponseFivethQuestion">Un préstamo mensual</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseFivethQuestion" value="4" id="fourthResponseFivethQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="fourthResponseFivethQuestion">Los impuestos del primer año</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row w-100 my-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent text-center fw-bold fs-5 text-dark">
+                            6. ¿Cuál es una buena práctica para un nuevo emprendimiento?
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush"
+                                style="--bs-list-group-bg: transparent !important;--bs-list-group-disabled-bg: transparent !important;">
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSixthQuestion" value="1" id="firstResponseSixthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="firstResponseSixthQuestion">Gastar mucho en publicidad</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSixthQuestion" value="2" id="secondResponseSixthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="secondResponseSixthQuestion">No registrar nada por escrito</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSixthQuestion" value="3" id="thirdResponseSixthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="thirdResponseSixthQuestion">Medir resultados y ajustar la
+                                        estrategia</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1 cursor-pointer" required type="radio"
+                                        name="responseSixthQuestion" value="4" id="fourthResponseSixthQuestion">
+                                    <label class="form-check-label cursor-pointer stretched-link"
+                                        for="fourthResponseSixthQuestion">Contratar personal sin necesitarlo</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky-bottom w-100">
+                    <div class="card my-4 bg-gradient-kame">
+                        <div class="card-body">
+                            <button class="btn btn-outline-primary w-100 text-dark border border-primary"
+                                type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal fade" id="modalShow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body ">
+                    <div class="alert alert-secondary">
+                        Se han respondido correctamente: <span id="quantityResponse"
+                            class="badge rounded-pill text-bg-success"></span> preguntas
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <img src="https://i.pinimg.com/originals/0d/62/79/0d6279af6ad18436b4514e86153f6265.gif" alt=""
+                            class="img-fluid img-thumbnail" srcset="" id="imageModal">
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./../../assets/js/company/menu.js"></script>
+    <script src="./../../assets/js/company/form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
